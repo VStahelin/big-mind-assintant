@@ -108,9 +108,14 @@ async def handle_audio(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
         response = genai.GenerativeModel("gemini-1.5-flash").generate_content(
             [
                 {
-                    "text": "Transcreva este áudio para português do Brasil, garantindo que o "
-                    "texto resultante seja claro e fluido, como se fosse um texto corrido "
-                    "para leitura humana."
+                    "text":
+                        "Você é um especialista em transcrição de áudio. E principalmente, em "
+                        "capturar a entonação e a emoção do locutor. Então: "
+                        "Transcreva este áudio para português do Brasil, garantindo que o "
+                        "texto resultante seja claro e fluido, como se fosse um texto corrido "
+                        "para leitura humana. Nao alucine com letras aleatórias, todo "
+                        "texto deve ser coerente."
+                        "Capture a entonação e a emoção do locutor e coloque a pontuação correta. "
                 },
                 {"text": "data:audio/ogg;base64"},
                 _file,
