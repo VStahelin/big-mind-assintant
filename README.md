@@ -1,4 +1,7 @@
-# Big Mind Assistant 🤖
+<p align="center">
+  <img src="assets/logo.jpeg" alt="Big Mind Assistant Logo" width="200"> <br>
+  <h1 align="center"><b>Big Mind Assistant 🤖</b></h1>
+</p>
 
 Um assistente de Telegram super inteligente, alimentado pelo Google Gemini! 🚀
 
